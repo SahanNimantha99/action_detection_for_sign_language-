@@ -1,57 +1,28 @@
 # Action Detection for Sign Language
 
-This project aims to detect sign language actions using a machine learning model based on an LSTM neural network. The implementation utilizes Python, TensorFlow, OpenCV, MediaPipe, and other libraries to preprocess data, train the model, and make predictions.
+![Sign Language Action Detection](images/sign_language_detection.jpg)
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Data Collection](#data-collection)
-  - [Model Training](#model-training)
-  - [Making Predictions](#making-predictions)
-- [Project Structure](#project-structure)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
+## Overview
+
+The "Action Detection for Sign Language" project aims to detect sign language actions using a machine learning model based on an LSTM neural network. The implementation utilizes Python, TensorFlow, OpenCV, MediaPipe, and other libraries to preprocess data, train the model, and make predictions.
+
+## Features
+
+- **Video Capture**: OpenCV is used to capture video frames, enabling real-time sign language action detection from webcam or video streams.
+- **LSTM Model**: The core of the project is an LSTM neural network model trained on sign language action sequences to recognize and classify different gestures and movements.
+- **Preprocessing**: Data preprocessing techniques are applied to extract relevant features from video frames, such as hand gestures and movements, before feeding them into the LSTM model.
+- **Real-time Prediction**: The trained model is used to make real-time predictions on incoming video streams, providing instant feedback on detected sign language actions.
+
+## Benefits
+
+- **Accessibility**: The project enhances accessibility for the deaf and hard of hearing community by providing a tool for real-time sign language action recognition and interpretation.
+- **Education**: It can be used as an educational tool to teach sign language and raise awareness about sign language communication.
+- **Communication**: Enables better communication between individuals proficient in sign language and those who are not, bridging the communication gap.
+- **Research**: Contributes to research in the field of computer vision and gesture recognition, with potential applications beyond sign language, such as human-computer interaction and robotics.
 
 ## Installation
 
-To set up the project, follow these steps:
-
 1. Clone the repository:
 
-
-2. Create and activate a virtual environment (optional but recommended):
-
-
-3. Install the required packages:
-
-
-## Usage
-
-### Data Collection
-
-To collect data for training, use OpenCV and MediaPipe to capture video and extract keypoints from the sign language actions. Follow these steps:
-
-1. **Set up the data collection script**: Modify the script `data_collection.py` to specify the actions you want to collect data for and the number of sequences.
-2. **Run the script**: Execute the script to start capturing video and extracting keypoints.
-
-### Model Training
-
-Once you have collected the data, proceed to train the LSTM model:
-
-1. **Preprocess the data**: Ensure the data is in the correct format and split into training and validation sets. Modify and run the script `preprocess_data.py` if needed.
-
-
-2. **Train the model**: Use the script `train_model.py` to train the LSTM model on the preprocessed data.
-
-
-3. **Evaluate the model**: After training, evaluate the model's performance using the validation set.
-
-
-### Making Predictions
-
-Use the trained model to make predictions on new sign language actions:
-
-1. **Load the trained model**: Use the script `predict.py` to load the model and make predictions.
-
-
-2. **Real-time predictions**: Integrate the model with a live video feed for real-time action detection.
+   ```bash
+   https://github.com/SahanNimantha99/action_detection_for_sign_language-

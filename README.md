@@ -1,6 +1,6 @@
 # Action Detection for Sign Language
 
-![Sign Language Action Detection](images/sign_language_detection.jpg)
+![Sign Language Action Detection](docs/Images/sign_language_detection.jpg)
 
 ## Overview
 

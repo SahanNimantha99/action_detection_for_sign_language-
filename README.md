@@ -4,7 +4,7 @@
 
 ## Overview
 
-The "Action Detection for Sign Language" project aims to detect sign language actions using a machine learning model based on an LSTM neural network. The implementation utilizes Python, TensorFlow, OpenCV, MediaPipe, and other libraries to preprocess data, train the model, and make predictions.
+The "Action Detection for Sign Language" project aims to detect sign language actions using a machine learning model based on LSTM (Long Short-Term Memory) neural networks. The implementation utilizes Python, TensorFlow, OpenCV, MediaPipe, and other libraries to preprocess data, train the model, and make predictions.
 
 ## Features
 
@@ -25,4 +25,29 @@ The "Action Detection for Sign Language" project aims to detect sign language ac
 1. Clone the repository:
 
    ```bash
-   https://github.com/SahanNimantha99/action_detection_for_sign_language-
+   git clone https://github.com/SahanNimantha99/action_detection_for_sign_language-
+   ```
+
+2. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Evaluation of Models
+
+### Model Comparison
+
+We evaluated three different models for sign language action detection: CNN (Convolutional Neural Network), RNN (Recurrent Neural Network), and LSTM (Long Short-Term Memory) networks. Each model was assessed using the following metrics: MSE (Mean Squared Error), RMSE (Root Mean Squared Error), and R values.
+
+### Results
+
+The LSTM model outperformed the CNN and RNN models with lower MSE and RMSE values and higher R values, indicating better accuracy and predictive performance.
+
+## ML DevOps Integration
+
+We integrated ML DevOps practices into our project pipeline to streamline model development, deployment, and monitoring processes. The following practices were incorporated:
+
+- **Continuous Integration/Continuous Deployment (CI/CD)**: Automated pipelines were set up to build, test, and deploy models, ensuring rapid iteration and deployment cycles.
+- **Model Monitoring**: We implemented monitoring solutions to track model performance metrics in real-time and trigger alerts for any deviations from expected behavior.
+- **Version Control**: All model artifacts and code changes are version-controlled using Git, facilitating collaboration and reproducibility.
